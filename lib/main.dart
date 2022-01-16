@@ -77,9 +77,9 @@ class HomePage extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: const Text(
+                            const Padding(
+                              padding: EdgeInsets.all(8.0),
+                              child: Text(
                                 'LENGTH \n (cm)',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
@@ -117,9 +117,9 @@ class HomePage extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: const Text(
+                            const Padding(
+                              padding: EdgeInsets.all(8.0),
+                              child: Text(
                                 'GIRTH \n (cm)',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
